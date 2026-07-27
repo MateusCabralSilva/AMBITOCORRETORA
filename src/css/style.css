@@ -136,16 +136,16 @@ nav a:hover::after {
   box-shadow: 0 0 20px rgba(212, 176, 106, 0.35);
 }
 
-.hero {
+#hero {
   padding: 0 25px;
 }
 
-.hero h1 {
+#hero h1 {
   font-size: 40px;
 
 }
 
-.hero p {
+#hero p {
   padding-top: 20px;
 }
 
@@ -179,7 +179,7 @@ nav a:hover::after {
   width: 45px;
 }
 
-.hero {
+#hero {
   background: #021027;
   color: white;
   padding: 30px 25px;
@@ -628,8 +628,13 @@ footer a {
 
   header {
     padding: 18px 25px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
   }
-
+  .hero-content {
+    margin-top: 60px;
+  }
   .menu-toggle {
     display: block;
   }
@@ -680,6 +685,7 @@ footer a {
   .hero-right {
     display: none;
   }
+
 
 }
 
