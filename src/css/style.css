@@ -714,6 +714,11 @@ footer a {
   .footer {
     grid-template-columns: 1fr 1fr
   }
+  .buttons-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 }
 
 @media(max-width:689px) {
@@ -801,6 +806,7 @@ footer a {
 .banner h3, .banner p {
   color: white;
 }
+
 .banner {
   background-color: var(--page-dark);
   display: flex;
